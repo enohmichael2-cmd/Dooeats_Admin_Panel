@@ -54,13 +54,13 @@
 
             <li class="nav-item">
                 <a href="{!! url('settings/app/adminCommission') !!}" class="nav-link {{  Request::is('settings/app/adminCommission*') || Request::is('adminCommission*') ? 'selected' : '' }}">
-                    <i class="fa fa-percent"></i> Admin Commission
+                    <i class="fa fa-percent"></i> {{trans('lang.admin_commission')}}
                 </a>
             </li>
 
             <li class="nav-item">
                 <a href="{!! url('settings/restaurantNearBy') !!}" class="nav-link {{  Request::is('settings/restaurantNearBy*') || Request::is('restaurantNearBy*') ? 'selected' : '' }}">
-                    <i class="fa fa-road"></i> Restaurant Nearby Radios
+                    <i class="fa fa-road"></i> {{trans('lang.restaurantnearby_radius')}}
                 </a>
             </li>
 

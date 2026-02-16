@@ -30,6 +30,9 @@
     <link href="{{ asset('css/chosen.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap-tagsinput.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/plugins/select2/dist/css/select2.min.css')}}" rel="stylesheet">
+    
+    <!-- New Navigation Styles -->
+    <link href="{{ asset('css/navigation.css') }}" rel="stylesheet">
 
     <link href="{{ asset('assets/plugins/summernote/summernote-bs4.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
@@ -136,7 +139,7 @@
 </head>
     <body>
 
-<div id="app" class="fix-header fix-sidebar card-no-border">
+<div id="app" class="card-no-border">
     <div id="main-wrapper">
         <div id="data-table_processing" class="page-overlay" style="display:none; background: rgba(255,255,255,0.1); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); position: fixed; width: 100%; height: 100%; z-index: 9999; top: 0; left: 0; align-items: center; justify-content: center;">
             <div class="overlay-content" style="text-align: center;">
@@ -149,18 +152,11 @@
         <style>
             .page-overlay[style*="display: flex"] { display: flex !important; }
         </style>
-        <header class="topbar">
-
-            <nav class="navbar top-navbar navbar-expand-md navbar-light glass-nav">
-                @include('layouts.header')
-            </nav>
-
-        </header>
-        <aside class="left-sidebar">
-            <div class="scroll-sidebar">
-                @include('layouts.menu')
-            </div>
-        </aside>
+        
+        <!-- NEW NAVIGATION IMPLEMENTATION -->
+        @include('layouts.sidebar_new')
+        @include('layouts.header_new')
+        
         <div class="page-wrapper" style="min-height: 100vh; background: transparent;">
             <div class="container-fluid">
                 @yield('content')

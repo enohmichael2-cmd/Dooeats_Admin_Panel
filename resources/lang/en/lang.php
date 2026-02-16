@@ -38,11 +38,11 @@ return [
 
     'app_setting_app_name' => 'Application Name',
 
-    'app_setting_app_name_help' => 'The application name appears in the title',
+    'app_setting_app_name_help' => 'Enter the application name',
 
     'app_setting_app_short_description' => 'Short description',
 
-    'app_setting_app_short_description_help' => 'The short description appears in the title',
+    'app_setting_app_short_description_help' => 'Enter a short description for the application',
 
     'app_setting_apple_pay' => "Apple Pay",
 
@@ -50,7 +50,7 @@ return [
 
     'app_setting_cod_short' => "COD",
 
-    'enter_item_quantity_error' => "Please enter item quantity",
+    'enter_item_quantity_error' => "Please enter the item quantity",
 
     'invalid_item_quantity_error' => "Invalid item quantity",
 
@@ -60,15 +60,15 @@ return [
 
     'app_setting_enable_cod' => 'Enable COD',
 
-    'app_settings_enable_cod_help' => 'Check it to enable COD payment method',
+    'app_settings_enable_cod_help' => 'Enable Cash on Delivery (COD) payment method',
 
     'app_setting_enable_google' => 'Enable google',
 
-    'app_setting_enable_google_help' => 'Check it to use google as login method',
+    'app_setting_enable_google_help' => 'Allow users to sign in with Google',
 
     'app_setting_enable_facebook' => 'Enable facebook',
 
-    'app_setting_enable_facebook_help' => 'Check it to use facebook as login method',
+    'app_setting_enable_facebook_help' => 'Allow users to sign in with Facebook',
 
     'app_setting_enable_notifications' => 'Enable push notifications',
 
@@ -148,18 +148,18 @@ return [
 
     'app_setting_enable_twitter' => 'Enable twitter',
 
-    'app_setting_enable_twitter_help' => 'Check it to use twitter as login method',
+    'app_setting_enable_twitter_help' => 'Allow users to sign in with Twitter',
     
 
     'app_setting_facebook' => 'Authentication using facebook',
 
     'app_setting_facebook_app_id' => 'Application ID',
 
-    'app_setting_facebook_app_id_help' => 'Copy/Past your facebook application id',
+    'app_setting_facebook_app_id_help' => 'Copy/Paste your Facebook Application ID',
 
     'app_setting_facebook_app_secret' => 'Application Secret',
 
-    'app_setting_facebook_app_secret_help' => 'Copy/Past your facebook application secret key',
+    'app_setting_facebook_app_secret_help' => 'Copy/Paste your Facebook Application Secret',
 
     'app_setting_fcm_key' => 'Firebase Cloud Messaging Key',
 
@@ -167,11 +167,11 @@ return [
 
     'app_setting_firebase_app_id' => 'Application ID',
 
-    'app_setting_firebase_app_id_help' => 'Copy/Past your firebase Application ID',
+    'app_setting_firebase_app_id_help' => 'Copy/Paste your Firebase Application ID',
 
     'app_setting_firebase_api_key' => 'API Key',
 
-    'app_setting_firebase_api_key_help' => 'Copy/Past your API Key',
+    'app_setting_firebase_api_key_help' => 'Copy/Paste your API Key',
 
     'app_setting_firebase_auth_domain' => 'Auth Domain',
 
@@ -205,11 +205,11 @@ return [
 
     'app_setting_google_app_id' => 'Application ID',
 
-    'app_setting_google_app_id_help' => 'Copy/Past your google application id',
+    'app_setting_google_app_id_help' => 'Copy/Paste your Google Application ID',
 
     'app_setting_google_app_secret' => 'Application Secret',
 
-    'app_setting_google_app_secret_help' => 'Copy/Past your google application secret key',
+    'app_setting_google_app_secret_help' => 'Copy/Paste your Google Application Secret',
 
     'app_setting_google_maps_key' => 'Google Maps Key',
 
@@ -277,11 +277,11 @@ return [
 
     'app_setting_twitter_app_id' => 'Application ID',
 
-    'app_setting_twitter_app_id_help' => 'Copy/Past your twitter application id',
+    'app_setting_twitter_app_id_help' => 'Copy/Paste your Twitter Application ID',
 
     'app_setting_twitter_app_secret' => 'Application Secret',
 
-    'app_setting_twitter_app_secret_help' => 'Copy/Past your twitter application secret key',
+    'app_setting_twitter_app_secret_help' => 'Copy/Paste your Twitter Application Secret',
 
     //---------------------------------------BBBB---------------------------------------
 
@@ -295,27 +295,27 @@ return [
 
     'car_image' => "Car Image",
 
-    'car_image_help' => "Insert Car Image",
+    'car_image_help' => "Upload car image",
 
     'car_name' => "Car Name",
 
-    'car_name_help' => "Insert Car Name",
+    'car_name_help' => "Enter car name",
 
     'car_number' => "Car Number",
 
-    'car_number_help' => "Insert Car Number",
+    'car_number_help' => "Enter car number",
 
     'category_description' => 'Description',
 
-    'category_description_help' => 'Insert Description',
+    'category_description_help' => 'Enter description',
 
     'category_image' => 'Image',
 
-    'category_image_help' => 'Insert image in SVG format',
+    'category_image_help' => 'Upload image in SVG format',
 
     'category_name' => 'Name',
 
-    'category_name_help' => 'Insert Name',
+    'category_name_help' => 'Enter category name',
 
     'category_plural' => 'Categories',
 
@@ -333,23 +333,23 @@ return [
 
     'coupon_code' => 'Code',
 
-    'coupon_code_help' => 'Insert Coupon Code',
+    'coupon_code_help' => 'Enter coupon code',
 
     'coupon_create' => 'Create Coupon',
 
     'coupon_description' => 'Description',
 
-    'coupon_description_help' => 'Insert Description',
+    'coupon_description_help' => 'Enter description',
 
     'coupon_discount' => 'Discount',
 
     'coupon_restaurant' => 'Restaurant',
 
-    'coupon_discount_help' => 'Insert Discount Fixed Amount (Ex: 8 for 8$) or Percent (Ex: 10 for 10%)',
+    'coupon_discount_help' => 'Enter discount amount (Fixed) or Percent (e.g., 10 for 10%)',
 
     'coupon_discount_type' => 'Discount Type',
 
-    'coupon_discount_type_help' => 'Select Discount Type',
+    'coupon_discount_type_help' => 'Select discount type',
 
     'coupon_edit' => 'Edit Coupon',
 
@@ -357,7 +357,7 @@ return [
 
     'coupon_expires_at' => 'Expires At',
 
-    'coupon_expires_at_help' => 'Insert Expires At',
+    'coupon_expires_at_help' => 'Select expiration date',
 
     'coupon_fixed' => 'Fixed',
 
@@ -385,21 +385,21 @@ return [
 
     'contact_us_address' => "Address",
 
-    'contact_us_address_help' => "Insert Address (Use \\n for new line)",
+    'contact_us_address_help' => "Enter address (use \\n for new line)",
 
     'contact_us_email' => "Email",
 
-    'contact_us_email_help' => "Insert Email",
+    'contact_us_email_help' => "Enter email address",
 
     'contact_us_phone' => "Phone",
 
-    'contact_us_phone_help' => "Insert Phone",
+    'contact_us_phone_help' => "Enter phone number",
 
     'digit_after_decimal_point' => 'Digit After Decimal Point',
 
-    'digit_after_decimal_point_help' => 'Enter Digit After Decimal Point ( Ex: insert 2 then it shows 0.00 amount)',
+    'digit_after_decimal_point_help' => 'Enter the number of digits after value (e.g., enter 2 for 0.00)',
 
-    'digit_after_decimal_point_error' => 'Please Insert Digit After Decimal Point more then 0',
+    'digit_after_decimal_point_error' => 'Please enter a value greater than 0',
 
     //---------------------------------------DDDD---------------------------------------
 
@@ -463,7 +463,7 @@ return [
 
     'dashboard_driver' => 'Driver',
 
-    'dashboard_business_analytics' => 'Business analytics',
+    'dashboard_business_analytics' => 'Business Analytics',
 
 
 
@@ -499,7 +499,7 @@ return [
 
     'drivers_payout_amount' => 'Amount',
 
-    'drivers_payout_amount_placeholder' => 'Insert Amount',
+    'drivers_payout_amount_placeholder' => 'Enter amount',
 
     'drivers_payout_create' => 'Create Driver Payout',
 
@@ -507,9 +507,9 @@ return [
 
     'drivers_payout_driver_name' => 'Driver Name',
 
-    'drivers_payout_driver_id_help' => 'Insert Driver Id',
+    'drivers_payout_driver_id_help' => 'Select driver ID',
 
-    'drivers_payout_driver_name_help' => 'Insert Driver Name',
+    'drivers_payout_driver_name_help' => 'Enter driver name',
 
     'drivers_payout_plural' => 'Drivers Payouts',
 
@@ -533,7 +533,7 @@ return [
 
     'first_name' => "First Name",
 
-    'first_name_help' => "Insert First Name",
+    'first_name_help' => "Enter first name",
 
     'fix_commission' => "Fix Commission",
 
@@ -541,7 +541,7 @@ return [
 
     'food_category_id' => 'Category',
 
-    'food_category_id_help' => 'Insert Category',
+    'food_category_id_help' => 'Select category',
 
     'food_create' => 'Create Food',
 
@@ -549,31 +549,31 @@ return [
 
     'food_discount' => "Discount Price",
 
-    'food_discount_help' => "Insert Discount Price",
+    'food_discount_help' => "Enter discount price",
 
     'food_edit' => 'Edit Food',
 
     'food_image' => 'Images',
 
-    'food_image_help' => 'Insert Image',
+    'food_image_help' => 'Upload food image',
 
     'food_information' => "Food Details",
 
     'food_name' => 'Name',
 
-    'food_name_help' => 'Insert Name',
+    'food_name_help' => 'Enter food name',
 
     'food_plural' => 'Foods',
 
     'food_price' => 'Price',
 
-    'food_price_help' => 'Insert Price',
+    'food_price_help' => 'Enter price',
 
     'food_publish' => "Publish",
 
     'food_restaurant_id' => 'Restaurant',
 
-    'food_restaurant_id_help' => 'Insert Restaurant',
+    'food_restaurant_id_help' => 'Select restaurant',
 
     'food_review_edit' => 'Edit Food Review',
 
@@ -603,7 +603,7 @@ return [
 
     'item_quantity' => "Item Quantity",
 
-    'item_quantity_help' => "For unlimited set -1",
+    'item_quantity_help' => "Enter -1 for unlimited quantity",
 
     //---------------------------------------JJJJ---------------------------------------
 
@@ -611,7 +611,7 @@ return [
 
     'last_name' => "Last Name",
 
-    'last_name_help' => "Insert Last Name",
+    'last_name_help' => "Enter last name",
 
     //---------------------------------------MMMM---------------------------------------
 
@@ -635,7 +635,7 @@ return [
 
     'old_password' => "Old Password",
 
-    'old_password_help' => 'Insert your old password',
+    'old_password_help' => 'Enter your old password',
 
     'order_accepted' => "Order Accepted",
 
@@ -673,7 +673,7 @@ return [
 
     'profile_image' => "Profile Image",
 
-    'profile_image_help' => "Insert Profile Image",
+    'profile_image_help' => "Upload profile image",
 
     'proteins' => "Proteins",
 
@@ -711,7 +711,7 @@ return [
 
     'restaurant_address' => 'Address',
 
-    'restaurant_address_help' => 'Insert Address',
+    'restaurant_address_help' => 'Enter address',
 
     'restaurant_cuisines' => 'Cuisines',
 
@@ -737,25 +737,25 @@ return [
 
     'restaurant_image' => 'Image',
 
-    'restaurant_image_help' => 'Insert Image',
+    'restaurant_image_help' => 'Upload image',
 
     'restaurant_latitude' => 'Latitude',
 
-    'restaurant_latitude_help' => 'Insert Latitude',
+    'restaurant_latitude_help' => 'Enter latitude',
 
     'restaurant_longitude' => 'Longitude',
 
-    'restaurant_longitude_help' => 'Insert Longitude',
+    'restaurant_longitude_help' => 'Enter longitude',
 
-    'vendor_help'=>'Select Vendor',
+    'vendor_help'=>'Select Restaurant',
 
     'restaurant_name' => 'Name',
 
-    'restaurant_name_help' => 'Insert Name',
+    'restaurant_name_help' => 'Enter name',
 
     'restaurants_payout_amount' => 'Amount',
 
-    'restaurants_payout_amount_placeholder' => 'Insert Amount',
+    'restaurants_payout_amount_placeholder' => 'Enter amount',
 
     'restaurants_payout_create' => 'Create Restaurants Payout',
 
@@ -765,17 +765,17 @@ return [
 
     'restaurants_payout_restaurant_id' => 'Restaurant Id',
 
-    'restaurants_payout_restaurant_id_help' => 'Insert Restaurant Id',
+    'restaurants_payout_restaurant_id_help' => 'Select restaurant ID',
 
     'restaurants_payout_restaurant' => 'Restaurant Name',
 
-    'restaurants_payout_restaurant_help' => 'Insert Restaurant Name',
+    'restaurants_payout_restaurant_help' => 'Select restaurant name',
 
     'restaurants_payout_table' => 'Restaurants Payouts List',
 
     'restaurant_phone' => 'Phone',
 
-    'restaurant_phone_help' => 'Insert Phone Number',
+    'restaurant_phone_help' => 'Enter phone number',
 
     'restaurant_plural' => 'Restaurants',
 
@@ -857,7 +857,7 @@ return [
 
     'user_address' => 'Address',
 
-    'user_address_help' => 'Insert Address',
+    'user_address_help' => 'Enter address',
 
     'user_create' => 'Create User',
 
@@ -867,29 +867,29 @@ return [
 
     'user_email' => 'Email',
 
-    'user_email_help' => 'Insert Email',
+    'user_email_help' => 'Enter email',
 
-    'user_first_name_help' => "Insert First Name",
+    'user_first_name_help' => "Enter first name",
 
-    'user_last_name_help' => "Insert Last Name",
+    'user_last_name_help' => "Enter last name",
 
     'user_latitude' => "Latitude",
 
-    'user_latitude_help' => "Insert User Latitude",
+    'user_latitude_help' => "Enter latitude",
 
     'user_longitude' => "Longitude",
 
-    'user_longitude_help' => "Insert User Longitude",
+    'user_longitude_help' => "Enter longitude",
 
     'user_name' => 'Name',
 
-    'user_name_help' => 'Insert Name',
+    'user_name_help' => 'Enter name',
 
-    'user_password_help' => 'Insert Password',
+    'user_password_help' => 'Enter password',
 
     'user_phone' => 'Phone',
 
-    'user_phone_help' => 'Insert Phone Number',
+    'user_phone_help' => 'Enter phone number',
 
     'user_profile' => 'Profile',
 
@@ -899,7 +899,7 @@ return [
 
     'user_role_help' => "User Role",
 
-    'user_role_id_help' => 'Insert Role',
+    'user_role_id_help' => 'Select role',
 
     'user_table' => 'Users List',
 
@@ -1162,31 +1162,31 @@ return [
 
     'address_line1' => 'Address Line 1',
 
-    'address_line1_help' => 'Insert Address Line 1',
+    'address_line1_help' => 'Enter address line 1',
 
     'address_line1_error' => 'Enter Address Line 1',
 
     'address_line2' => 'Address Line 2',
 
-    'address_line2_help' => 'Insert Address Line 2',
+    'address_line2_help' => 'Enter address line 2',
 
     'address_line2_error' => 'Enter Address Line 2',
 
     'city' => 'City',
 
-    'city_help' => 'Insert City',
+    'city_help' => 'Enter city',
 
     'city_error' => 'Enter City',
 
     'country' => 'Country',
 
-    'country_help' => 'Insert Country',
+    'country_help' => 'Enter country',
 
     'country_error' => 'Enter Country',
 
     'postalcode' => 'Postal Code',
 
-    'postalcode_help' => 'Insert Postal Code',
+    'postalcode_help' => 'Enter postal code',
 
     'postalcode_error' => 'Enter Postal Code',
 
@@ -1300,11 +1300,11 @@ return [
 
     'app_setting_merchant_key' => 'Merchant Key',
 
-    'app_setting_merchant_key_help' => 'Please add merchant_key',
+    'app_setting_merchant_key_help' => 'Enter Merchant Key',
 
     'app_setting_merchant_id' => 'Merchant Id',
 
-    'app_setting_merchant_id_help' => 'Please add merchant_id',
+    'app_setting_merchant_id_help' => 'Enter Merchant ID',
 
     'app_setting_payfast_cancel_url' => 'Cancel url',
 
@@ -1354,9 +1354,9 @@ return [
 
     'minimum_delivery_charges_within_km' => 'Minimum Delivery Charges Within Km',
 
-    'app_setting_secretKey_help' => 'Insert Secret Key',
+    'app_setting_secretKey_help' => 'Enter Secret Key',
 
-    'app_setting_publicKey_help' => 'Insert Public Key',
+    'app_setting_publicKey_help' => 'Enter Public Key',
 
     'languages' => 'Languages',
 
@@ -1496,13 +1496,13 @@ return [
 
     'attribute_edit' => 'Edit Food Attribute',
 
-    'attribute_name_help' => 'Insert Name',
+    'attribute_name_help' => 'Enter name',
 
     'attribute_table' => 'Food Attributes List',
 
     'item_attribute_id' => 'Food Attributes',
 
-    'item_attribute_id_help' => 'Insert Food Attribute',
+    'item_attribute_id_help' => 'Select food attribute',
 
     'item_attribute_plural' => 'Food Attributes',
 
@@ -1516,7 +1516,7 @@ return [
 
     'reviewattribute_edit' => 'Edit Review Attribute',
 
-    'reviewattribute_name_help' => 'Insert Name',
+    'reviewattribute_name_help' => 'Enter name',
 
     'reviewattribute_table' => 'Review Attributes List',
 
@@ -1530,7 +1530,7 @@ return [
 
     'homepageTemplate_error' => "Please enter homepage Template",
 
-    'footer_template_error' => "Please enter footer Template",
+    'footer_template_error' => "Please enter footer template",
 
     'cms_plural' => 'CMS Pages',
 
@@ -1542,7 +1542,7 @@ return [
 
     'cms_name' => 'Page name',
 
-    'cms_name_help' => 'Add your page name',
+    'cms_name_help' => 'Enter page name',
 
     'cms_name_error' => 'Please insert page name',
 
@@ -1552,11 +1552,11 @@ return [
 
     'cms_slug_error' => 'Please insert page slug',
 
-    'cms_slug_exist' => 'Page slug already exist, please choose another one',
+    'cms_slug_exist' => 'Page slug already exists, please choose another one',
 
     'cms_description' => 'Page Description',
 
-    'cms_description_help' => 'Add your page description',
+    'cms_description_help' => 'Enter page description',
 
     'cms_description_error' => 'Please insert page description',
 
@@ -1598,7 +1598,7 @@ return [
 
     'add_working_hours' => 'Add Working Hours',
 
-    'working_hour_note' => 'NOTE : Please Click on Edit Button After Making Changes in Working Hours, Otherwise Data may not Save!!',
+    'working_hour_note' => 'NOTE: Please click on the Edit Button after making changes to Working Hours, otherwise data may not save!',
 
     'from' => 'From',
 
@@ -1606,45 +1606,45 @@ return [
 
     'show_in_home' => 'Show in Homepage?',
 
-    'show_in_home_desc' => 'Maximum 5 categories will show in homepage',
+    'show_in_home_desc' => 'Maximum 5 categories will be shown on the homepage',
 
     'upload_favicon' => 'Favicon Icon',
 
     'app_setting_meta_title' => 'Meta Title',
 
-    'app_setting_meta_title_help' => 'The Meta Title appear in meta tag',
+    'app_setting_meta_title_help' => 'The Meta Title appears in the meta tag',
 
     'story' => 'Story',
 
     'customer_reviews' => 'Customer Reviews',
 
-    'restaurant_can_upload_story' => 'Restaurant can upload their story?',
+    'restaurant_can_upload_story' => 'Allow restaurants to upload stories?',
 
-    'lang_error' => 'Can not disable all language',
+    'lang_error' => 'Cannot disable all languages',
 
-    'auto_approve_restaurant' => 'Auto approve restaurant on sign up?',
+    'auto_approve_restaurant' => 'Auto-approve restaurants on sign up?',
 
-    'story_expiry_time' => 'Story expiry time(hour)',
+    'story_expiry_time' => 'Story expiry time (hours)',
 
-    'story_expiry_time_help' => 'Story will remove after choosen time',
+    'story_expiry_time_help' => 'Story will be removed after chosen time',
 
-    'story_upload_time' => 'Story length(seconds)',
+    'story_upload_time' => 'Story length (seconds)',
 
-    'story_error' => 'Story humbling image and video both are required to upload',
+    'story_error' => 'Story thumbnail image and video are both required to upload',
 
     'story_upload_time_help' => 'Maximum length of story to upload',
 
-    'story_humbling_image_alert' => 'To upload your story you must upload a thumbnail of the story, you can change your thumbnail.',
+    'story_humbling_image_alert' => 'To upload your story, you must upload a thumbnail. You can change your thumbnail later.',
 
-    'story_video_alert' => 'To upload your story you must upload a video of the story, you can add your video.',
+    'story_video_alert' => 'To upload your story, you must upload a video. You can add your video here.',
 
     'byfeature' => 'By features',
 
     'wallet_settings' => 'Wallet Settings (For Driver)',
 
-    'minimum_deposit_amount' => 'Minimum wallet amount to receiving order (For Driver)',
+    'minimum_deposit_amount' => 'Minimum wallet amount to receive order (For Driver)',
 
-    'enter_minimum_deposit_amount_error' => 'Please enter value of Minimum wallet amount to receiving order',
+    'enter_minimum_deposit_amount_error' => 'Please enter value of Minimum wallet amount to receive order',
 
     'minimum_withdrawal_amount' => 'Minimum wallet amount to withdrawal (For Driver)',
 

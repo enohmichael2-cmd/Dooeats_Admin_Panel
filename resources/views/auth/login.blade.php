@@ -6,7 +6,7 @@
         <div class="loginform-wrapper">
             <div class="logo text-center mb-4">
                 <span class="db"><img src="{{ asset('images/logo_web.png') }}" alt="logo" width="150" style="object-fit: contain; max-height: 80px;" /></span>
-                <h5 class="font-medium mb-3 mt-3 text-dark">Admin Login</h5>
+                <h5 class="font-medium mb-3 mt-3 text-dark">Sign In</h5>
             </div>
             <!-- Form -->
             <div class="row">
@@ -16,7 +16,7 @@
                         
                         <div class="form-group mb-3">
                             <label for="email" class="text-dark">Email Address</label>
-                            <input type="email" name="email" class="form-control form-control-lg @error('email') is-invalid @enderror" placeholder="Enter email" required autocomplete="email" autofocus>
+                            <input type="email" name="email" class="form-control form-control-lg @error('email') is-invalid @enderror" placeholder="name@example.com" required autocomplete="email" autofocus>
                              @error('email')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -26,7 +26,7 @@
 
                         <div class="form-group mb-3">
                             <label for="password" class="text-dark">Password</label>
-                            <input type="password" name="password" class="form-control form-control-lg @error('password') is-invalid @enderror" placeholder="Enter password" required autocomplete="current-password">
+                            <input type="password" name="password" class="form-control form-control-lg @error('password') is-invalid @enderror" placeholder="••••••••" required autocomplete="current-password">
                             @error('password')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -45,7 +45,7 @@
 
                         <div class="form-group text-center mt-4">
                             <div class="col-xs-12 pb-3">
-                                <button class="btn btn-block btn-lg btn-primary btn-rounded" type="submit">Log In</button>
+                                <button class="btn btn-block btn-lg btn-primary btn-rounded" type="submit">Sign In</button>
                             </div>
                         </div>
                     </form>
